@@ -13,15 +13,22 @@ p {
 }
 
 a {
-  color: #fed136
+  color: #663096
 }
 
 a:hover {
-  color: #fec503
+  color: #663096
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .text-primary {
-  color: #fed136 !important
+  color: #663096 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,13 +72,13 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136
+  background-color: #663096;
+  border-color: #663096;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #8d4dc6 !important;
+  border-color: #8d4dc6 !important;
   color: #fff
 }
 
@@ -118,12 +125,12 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #663096;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503
+  color: #663096
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -131,12 +138,12 @@ img::-moz-selection {
   font-weight: 400;
   padding: .75em 0;
   letter-spacing: 1px;
-  color: #fff;
+  color: #663096;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136
+  color: #663096
 }
 
 @media (min-width:992px) {
@@ -162,7 +169,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529
+    background-color: #f2f2f2
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -250,7 +257,9 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease .5s;
   transition: all ease .5s;
   opacity: 0;
-  background: rgba(254, 209, 54, .9)
+  background: rgba(102, 48, 150, .9)
+  /* color: #663096 */
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -670,13 +679,16 @@ footer span.copyright {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
-footer ul.quicklinks {
+footer a {
+  color: #663096
+}
+/* footer ul.quicklinks {
   font-size: 90%;
   line-height: 40px;
   margin-bottom: 0;
   text-transform: none;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
-}
+} */
 
 ul.social-buttons {
   margin-bottom: 0
@@ -697,5 +709,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136
+  background-color: #663096
 }
