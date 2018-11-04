@@ -20,6 +20,14 @@ a:hover {
   color: #663096
 }
 
+marquee {
+  color: #663096;
+  font-family: "Arial Black", Gadget, sans-serif;
+  /* font-size: 10px; */
+  font-weight: bold;
+
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -37,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section {
-  padding: 100px 0
+  padding: 50px 0
 }
 
 section h2.section-heading {
@@ -57,7 +65,7 @@ section h3.section-subheading {
 
 @media (min-width:768px) {
   section {
-    padding: 150px 0
+    padding: 80px 0
   }
 }
 
@@ -136,7 +144,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 105%;
+  font-size: 95%;
   font-weight: 1000;
   padding: .75em 0;
   font-weight: bold;
