@@ -360,7 +360,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .portfolio-modal .modal-content h2 {
-  font-size: 3em;
+  font-size: 2em;
   margin-bottom: 15px;
 
 
@@ -402,6 +402,7 @@ header.masthead .intro-text .intro-heading {
 
 .portfolio-modal .close-modal:hover {
   opacity: .3
+  /* background-color: 	#8B0000	; */
 }
 
 .portfolio-modal .close-modal .lr {
