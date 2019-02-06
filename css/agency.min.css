@@ -13,19 +13,23 @@ p {
 }
 
 a {
-  color: #663096
+  color: #000a7a
 }
 
 a:hover {
-  color: #663096
+  color: #000a7a
 }
 
 marquee {
-  color: #663096;
+  color: #000a7a;
   font-family: "Arial Black", Gadget, sans-serif;
   /* font-size: 10px; */
   font-weight: bold;
 
+}
+
+title {
+  font-size: 200px;
 }
 
 .carousel-item {
@@ -51,7 +55,7 @@ marquee {
 }
 
 .text-primary {
-  color: #663096 !important
+  color: #000a7a !important
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -95,8 +99,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-  background-color: #663096;
-  border-color: #663096;
+  background-color: #000a7a;
+  border-color: #000a7a;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -148,14 +152,15 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #663096;
-  font-family: "Arial Black", Gadget, sans-serif
+  color: #000a7a;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 30px !important;
 
 
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #663096
+  color: #000a7a
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -164,12 +169,12 @@ img::-moz-selection {
   padding: .75em 0;
   font-weight: bold;
   letter-spacing: 1px;
-  color: #663096;
+  color: #000a7a;
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #663096
+  color: #000a7a
 }
 
 @media (min-width:992px) {
@@ -200,7 +205,7 @@ img::-moz-selection {
 
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
-    padding: 20px 0
+    padding: 10px 0
   }
 }
 
@@ -288,7 +293,7 @@ header.masthead .intro-text .intro-heading {
   transition: all ease .5s;
   opacity: 0;
   background: rgba(102, 48, 150, .9)
-  /* color: #663096 */
+  /* color: #000a7a */
 
 }
 
@@ -362,8 +367,6 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content h2 {
   font-size: 2em;
   margin-bottom: 15px;
-
-
 }
 
 .portfolio-modal .modal-content p {
@@ -712,7 +715,7 @@ footer span.copyright {
 }
 
 footer a {
-  color: #663096
+  color: #000a7a
 }
 /* footer ul.quicklinks {
   font-size: 90%;
@@ -741,5 +744,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #663096
+  background-color: #000a7a
 }
