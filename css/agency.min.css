@@ -141,7 +141,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 12px;
+  font-size: 12px !important;
   right: 0;
   padding: 13px;
   text-transform: uppercase;
@@ -164,7 +164,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-size: 95%;
+  font-size: 113%;
   font-weight: 1000;
   padding: .75em 0;
   font-weight: bold;
