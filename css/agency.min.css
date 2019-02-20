@@ -23,7 +23,7 @@ a:hover {
 marquee {
   color: #000a7a;
   font-family: "Arial Black", Gadget, sans-serif;
-  /* font-size: 10px; */
+  font-size: 20px;
   font-weight: bold;
 
 }
@@ -173,6 +173,16 @@ img::-moz-selection {
   font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
 
+#mainNav .main-nav-item{
+  font-size: 130%;
+  font-weight: 1000;
+  padding: .75em 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000a7a;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #000a7a
 }
@@ -194,6 +204,10 @@ img::-moz-selection {
   }
 
   #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important
+  }
+
+  #mainNav .main-nav-item {
     padding: 1.1em 1em !important
   }
 
