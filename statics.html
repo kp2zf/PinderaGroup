@@ -23,6 +23,13 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
 </head>
 
 <body id="page-top">
@@ -544,7 +551,24 @@
                 <h2 class="">Internal Loadings in a Beam</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="statics_modules/2_description.png" alt="">
+                <br>
+
+                $$ \begin{array}{rcll}
+                y & = & x^{2}+bx+c\\
+                  & = & x^{2}+2\times\dfrac{b}{2}x+c\\
+                  & = & \underbrace{x^{2}+2\times\dfrac{b}{2}x+\left(\frac{b}{2}\right)^{2}}-
+                      {\left(\dfrac{b}{2}\right)^{2}+c}\\
+                  &  & \qquad\left(x+{\dfrac{b}{2}}\right)^{2}\\
+                  & = & \left(x+\dfrac{b}{2}\right)^{2}-\left(\dfrac{b}{2}\right)^{2}+c
+                  & \left|+\left({\dfrac{b}{2}}\right)^{2}-c\right.\\
+                    y+\left(\dfrac{b}{2}\right)^{2}-c & = & \left(x+
+                    \dfrac{b}{2}\right)^{2} & \left|\strut(\textrm{vertex form})\right.\\
+                y-y_{S} & = & (x-x_{S})^{2}\\
+                S(x_{S};y_{S}) & \,\textrm{or}\,
+                    & S\left(-\dfrac{b}{2};\,\left(\dfrac{b}{2}\right)^{2}-c\right)
+                \end{array} $$
+
+                <br>
 
                 <!-- <p>This module is not available online. However, you may download it!</p> -->
 
