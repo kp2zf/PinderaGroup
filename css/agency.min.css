@@ -17,7 +17,7 @@ a {
 }
 
 a:hover {
-  color: #000a7a
+  color: #ff0066
 }
 
 marquee {
@@ -160,7 +160,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #000a7a
+  color: #ff0066
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -184,11 +184,11 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #00a8b6
+  color: #ff0066
 }
 
 #mainNav .nav-link-active {
-  color: #00a8b6 !important
+  color: #ff0066 !important
 }
 
 @media (min-width:992px) {
@@ -310,13 +310,13 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease .5s;
   transition: all ease .5s;
   opacity: 0;
-  background: rgba(102, 48, 150, .9)
+  background: #000a7a;
   /* color: #000a7a */
 
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-  opacity: 1
+  opacity: 0.5
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
