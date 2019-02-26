@@ -28,6 +28,12 @@ marquee {
 
 }
 
+.navbar-brand small {
+  display:block;
+  font-size:14px;
+  /* color: #52527a */
+}
+
 title {
   font-size: 200px;
 }
