@@ -23,7 +23,9 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+
 </head>
+
 
 <body id="page-top">
 
@@ -77,7 +79,7 @@
     <div class="container">
       <p> With the support of the University of Virginia’s Educational Innovation Award, we have developed Instructional Modules that accelerate material delivery and student learning in two introductory mechanics courses jointly offered by the
         Civil Engineering and Mechanical and Aerospace Engneering Departments, namely CE/MAE 2300 (Statics) and CE/MAE 2310 (Strength of Materials). The two sets of modules are listed in the two tables below. They can be accessed by clicking on the
-        appropriate buttons above.
+        appropriate buttons below.
       </p>
       <br>
 
@@ -92,7 +94,7 @@
       <br>
       <div class="row">
         <div class="col">
-          <table class="table  table-dark table-striped table-hover">
+          <table class="table table-hover">
             <thead class="thead-dark">
               <tr>
                 <th scope="col">#</th>
@@ -101,7 +103,7 @@
             </thead>
             <tbody>
 
-              <tr>
+              <tr class="clickable-tr" href="statics.html">
                 <th scope="row">1</th>
                 <td>Particle Equilibrium</td>
               </tr>
@@ -207,11 +209,11 @@
 
         </div>
         <div class="col">
-          <table class="table  table-dark table-striped table-hover">
+          <table class="table table-hover">
             <thead class="thead-dark">
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Title</th>
+                <th scope="col">Module Name</th>
               </tr>
             </thead>
             <tbody>
@@ -527,6 +529,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <script>
+  $('.clickable-tr').on('click', function(){
+    var myLink = $(this).attr('href');
+    window.location.href = myLink;
+  });
+  </script>
 
 </body>
 
