@@ -20,6 +20,20 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
@@ -103,7 +117,7 @@
             </thead>
             <tbody>
 
-              <tr class="clickable-tr" href="statics.html">
+              <tr class="clickable-tr" data-toggle="modal" href="#module_1">
                 <th scope="row">1</th>
                 <td>Particle Equilibrium</td>
               </tr>
@@ -341,8 +355,7 @@
     </div>
   </div>
 
-  <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="portfolio-modal modal fade" id="module_1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -355,159 +368,54 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                <h2 class="">Particle Equilibrium</h2>
+                <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-  <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/2_description.png" alt=""> -->
 
-  <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                <br>
+                <div style="text-align: left" !important>
+                  The movement of a dot can be described by Newton's Second Law,
+                  \begin{equation}
+                  \sum _{k=1}^n \buildrel{\rightharpoonup}\over{{F}_k} = \buildrel{\rightharpoonup}\over{ma}
+                 \end{equation}
+                 In Cartesian coordinate system x-y, it can be written as,
+                 \begin{equation}
+                     \sum _{k=1}^n {F}_k cos\theta_{k}\buildrel{\rightharpoonup}\over{i} + {F}_k sin\theta_{k}\buildrel{\rightharpoonup}\over{j} = ma_{x}\buildrel{\rightharpoonup}\over{i} + ma_{x}\buildrel{\rightharpoonup}\over{j}
+                 \end{equation}
+                 or separately as,
+                 \begin{equation}
+                     \sum _{k=1}^n {F}_k cos\theta_{k} = ma_{x}, \sum _{k=1}^n {F}_k sin\theta_{k} = ma_{y}
+                 \end{equation}
+                 where $F_{k}$ is the magnitude of the $k^{th}$ force, $\Theta_{k}$ is the angle between the direction of the $k^{th}$ force and coordinate axis or x axis, m is the mass of the dot and $a_{x}$, $a_{y}$ are the acceleration projection in x, y direction.
+                 <br>
+                 $\buildrel{\rightharpoonup}\over{F} \,=\, F_x\buildrel{\rightharpoonup}\over{i}+F_y \buildrel{\rightharpoonup}\over{j} = \sqrt{F_x^2+F_y^2} (\frac{F_x }{\sqrt{F_x^2+F_y^2}}\buildrel{\rightharpoonup}\over{i}+\frac{F_y
+                  }{\sqrt{F_x^2+F_y^2}}\buildrel{\rightharpoonup}\over{j})=\buildrel{\rightharpoonup}\over{\|F\|}(\frac{F_x}{\buildrel{\rightharpoonup}\over{\|F\|}}\buildrel{\rightharpoonup}\over{i}+\frac{F_y}{\buildrel{\rightharpoonup}\over{\|F\|}}\buildrel{\rightharpoonup}\over{j})$
+                  <br>
+                  In the following example, we have three forces $F_{1}$, $F_{2}$, and $F_{3}$. Thus we have
+                  \begin{equation}
+                  {F}_1 cos\theta_{1} + {F}_2 cos\theta_{2} + {F}_3 cos\theta_{3} = ma_{x}
+                  \end{equation}
+                  \begin{equation}
+                  {F}_1 sin\theta_{1} + {F}_2 sin\theta_{2} + {F}_3 sin\theta_{3} = ma_{y}
+                  \end{equation}
+                  By setting the magnitude and direction of each forces, we can see the movement of the dot. If forces are set properly, the dot can remain in static equilibrium and thus will not move.
 
-  <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                </div>
+                <br>
+                <br>
 
-  <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate,
-                  maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                <!-- <p>This module is not available online. However, you may download it!</p> -->
+
+                <a href="https://www.wolframcloud.com/objects/45a00e08-a339-4ce9-8253-631fbc98e8c2?_embed=iframe">
+                  <button class="btn btn-primary" type="button">
+                    View Online</button>
+                </a>
+                <a download href="statics_modules/1.zip">
+                  <button class="btn btn-primary" type="button">
+                    Download CDF File</button>
+                </a>
+
               </div>
             </div>
           </div>
