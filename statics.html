@@ -816,7 +816,38 @@
                 <h2 class="">Force Vector Representation in 3D</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="statics_modules/4_description.png" alt="">
+                <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/4_description.png" alt=""> -->
+
+                <div style="text-align: left" !important>
+                  <br>
+                  For 3D case, a force vector can be represented as
+                  <br>
+                  <br>
+                  \begin{equation}
+                  \buildrel{\rightharpoonup}\over{F} = F_x \buildrel{\rightharpoonup}\over{i} + F_y \buildrel{\rightharpoonup}\over{j} + F_z \buildrel{\rightharpoonup}\over{k}
+                  \end{equation}
+                  \begin{equation}
+                  \buildrel{\rightharpoonup}\over{F} = \sqrt{F_x^2+F_y^2+F_z^2} \,\, (\frac{F_x}{\sqrt{F_x^2+F_y^2+F_z^2}}\buildrel{\rightharpoonup}\over{i} +  \frac{F_y}{\sqrt{F_x^2+F_y^2+F_z^2}}\buildrel{\rightharpoonup}\over{j} + \frac{F_z}{\sqrt{F_x^2+F_y^2+F_z^2}}\buildrel{\rightharpoonup}\over{k})
+                  \end{equation}
+                  \begin{equation}
+                  \buildrel{\rightharpoonup}\over{F} = \left\|\buildrel{\rightharpoonup}\over{F}\right\| (\frac{F_x}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}\buildrel{\rightharpoonup}\over{i}+\frac{F_y}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}\buildrel{\rightharpoonup}\over{j}+ \frac{F_z}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}\buildrel{\rightharpoonup}\over{k})
+                  \end{equation}
+                  <br>
+                  Note that $\cos\alpha = \frac{F_x}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}$, $\cos\beta = \frac{F_y}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}$, $\cos\gamma = \frac{F_z}{\left\|\buildrel{\rightharpoonup}\over{F}\right\|}$, where $\alpha$ is the angle between the vector and x-axis, $\beta$ is the angle between the vector and y-axis, $\gamma$ is the angle between the vector and z-axis, they satisfy the relation $\cos^{2}\alpha + \cos^{2}\beta + \cos^{2}\gamma = 1$. Then we have
+                  <br>
+                  <br>
+                  \begin{equation}
+                  \buildrel{\rightharpoonup}\over{F} = \left\|\buildrel{\rightharpoonup}\over{F}\right\| (\cos^{2}\alpha + \cos^{2}\beta + \cos^{2}\gamma) = \left\|\buildrel{\rightharpoonup}\over{F}\right\|\buildrel{\rightharpoonup}\over{u}
+                  \end{equation}
+                  <br>
+                  Where $\buildrel{\rightharpoonup}\over{u}$ = ($\cos^{2}\alpha + \cos^{2}\beta + \cos^{2}\gamma$) is the unit vector. By changing the magnitude and angles, we can get a different $\buildrel{\rightharpoonup}\over{F}$. Alternatively, we can use the components to control $\buildrel{\rightharpoonup}\over{F}$. Since we have
+                  \begin{equation}
+                  \buildrel{\rightharpoonup}\over{F} = F_x \buildrel{\rightharpoonup}\over{i} + F_y \buildrel{\rightharpoonup}\over{j} + F_z \buildrel{\rightharpoonup}\over{k}
+                  \end{equation}
+                  By changing the components $F_x, F_y, F_z$ directly, we can also get a different $\buildrel{\rightharpoonup}\over{F}$.
+                </div>
+                <br>
+                <br>
 
                 <p>This module is not available online. However, you may download it!</p>
 
