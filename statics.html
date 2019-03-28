@@ -1611,7 +1611,24 @@
                 <h2 class="">Method of Sections</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="statics_modules/18_description.png" alt="">
+                <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/18_description.png" alt=""> -->
+
+                <div style="text-align: justify" !important>
+                  When we need to find the force in only a few members of a truss, we can analyze the truss using the method of sections. It is based on the principle that if the truss is in equilibrium then any segment of the truss is also in equilibrium.
+                  <br>
+                  <br>
+                  Since we only have three independent equilibrium equations, i.e. 2 force components equilibrium + 1 moment equilibrium, or 1 force components equilibrium + 2 moment equilibrium, we should try to choose section passes no more than 3 members.
+                  <br>
+                  <br>
+                  Always assume that the unknown member forces at the cut section are tensile forces, i.e., "pulling" on the member. By doing this, the numerical solution of the equilibrium equations will yield positive scalars for members in tension and negative scalars for members in compression.
+                  We pick an example from the textbook in chapter 6.4 to show the process in details. During the solution, we should carefully consider ways of writing the equations so as to yield a direct solution for each of the unknowns, rather than having to solve simultaneous equations. So, in this example, we first sum moments about G thus yield a direct solution for ${F_{BC}}$, since ${F_{GC}}$ and ${F_{GF}}$ create zero moment about G. Then ${F_{GC}}$ and be found directly by the force summation in y direction since ${F_{BC}}$ and ${F_{GF}}$ has no component in y direction. Finally, by summing moments about C we get ${F_{GF}}$ directly since ${F_{BC}}$ and ${F_{GC}}$ create zero moment about C.
+                  <br>
+                  <br>
+                  Such method of section is very quick. As a comparison, if the method of joints were used to determine, say, the force in member GC, it would be necessary to analyze joints A, B, and G in sequence, which is more tedious.
+                  <br>
+                </div>
+                <br>
+                <br>
 
                 <p>This module is not available online. However, you may download it!</p>
 
