@@ -23,6 +23,18 @@
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
 </head>
 
 <body id="page-top">
@@ -291,7 +303,37 @@
                 <h2 class="">Stress on Oblique Plane</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="strength_modules/3_description.png" alt="">
+                <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/3_description.png" alt=""> -->
+
+                <br>
+                <div style="text-align: justify" !important>
+                This module is designed to show the stresses on an oblique plane with inclined angle $\theta$ under axial loading.
+                <br>
+                <br>
+                Consider a rectangular bar with constant cross section shown below, which is subjected to the axial force P. Now, consider an oblique plane that passes through the bar and is inclined at the angle $\theta$ relative to the vertical axis. What will be the forces and stresses acting on this oblique plane? We will follow the following three steps in addressing this question.
+                <br>
+                <br>
+                Step 1: Using the method of sections we determine that the force acting on the inclined plane should be P to ensure horizontal equilibrium.
+                <br>
+                Step 2: We resolve P into two components, normal force N which is perpendicular to the inclined plane and shear force V which is parallel to the inclined plane.
+                <br>
+                Step 3: We use the definition of the normal and shear stress, $\sigma$ = $\frac{N}{A_{\theta}}$ and  $\tau$ = $\frac{V}{A_{\theta}}$, to calculate these stresses noting that the area of the inclined plane is related to the area perpendicular to the x-axis by $A_{\theta}$ = $\frac{A_{0}}{cos\theta}$.
+                <br>
+                <br>
+                Tips in using the module
+                <br>
+                1. Change the Parameter settings to see what each parameter controls. To input the specific value of a parameter, click on the plus sign and input the value in the box.
+                <br>
+                2. Turn on the Equilibrium button to see the FBD.
+                <br>
+                3. Turn on the Resolution button to see how to resolve the applied force P into components perpendicular and parallel to the inclined plane. Turn on the Forces plot to see how forces change with $\theta$.
+                <br>
+                4. Turn on the Internal stresses to see the normal and shear stresses. Turn on the Stresses plot to see how stresses change with $\theta$.
+                <br>
+                5. To turn back to the initial settings, click on the plus sign on the top-right corner of animation window, then click the Initial Settings.
+                </div>
+                <br>
+                <br>
 
                 <!-- <p>This module is not available online. However, you may download it!</p> -->
 
