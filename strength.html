@@ -761,7 +761,33 @@
                 <h2 class="">Stress Transformation</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="strength_modules/10_description.png" alt="">
+                <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/10_description.png" alt=""> -->
+
+                <div style="text-align: justify" !important>
+                This module is revised on the basis of the prototype developed by Nick Bongiardina et al to show the idea of stress transformation as well as Mohr's Circle for plane stress problem.
+                <br>
+                <br>
+                The state of plane stress at a point is uniquely represented by two normal stress components and one shear stress component acting on an element. These three component will be different for each specific orientation $\theta$ of the element at the point. Specifically, if the stress state for a given element is known, with the two normal stresses and one shear stress represented by $\sigma_{x}$, $\sigma_{y}$ and $\tau_{xy}$; after a rotation of an angle $\theta$, the stresses change to $\sigma_{x^{'}}$, $\sigma_{y^{'}}$ and $\tau_{x^{'}y^{'}}$, and the relations between these two sets of stress, or stress transformation equation can be written as
+                \begin{equation}
+                \sigma_{x^{'}} = \frac{\sigma_{x} + \sigma_{y}}{2} + \frac{\sigma_{x} - \sigma_{y}}{2}\cos(2\theta) + \tau_{xy}\sin(2\theta)
+                \end{equation}
+                \begin{equation}
+                \sigma_{y^{'}} = \frac{\sigma_{x} + \sigma_{y}}{2} - \frac{\sigma_{x} - \sigma_{y}}{2}\cos(2\theta) - \tau_{xy}\sin(2\theta)
+                \end{equation}
+                \begin{equation}
+                \tau_{x^{'}y^{'}} = - \frac{\sigma_{x} - \sigma_{y}}{2}\sin(2\theta) + \tau_{xy}\cos(2\theta)
+                \end{equation}
+                After eliminate the parameter $\theta$ we can get the following equation
+                \begin{equation}
+                (\sigma_{x^{'}}- \frac{\sigma_{x} + \sigma_{y}}{2})^{2} +  (\tau_{x^{'}y^{'}})^{2} = (\frac{\sigma_{x} - \sigma_{y}}{2})^{2} + (\tau_{xy})^{2}
+                \end{equation}
+                Which is the equation of Mohr's Circle for plane stress problem. Once we set the stress of $\sigma_{x}$, $\sigma_{y}$ and $\tau_{xy}$ at 0 degree, the Mohr's Circle can be drawn in the $\sigma_{x^{'}}$ - $\tau_{x^{'}y^{'}}$ plane, and the point represent 0 degree can be determined. Then, according to the stress transformation equation, we can easily determine the stress for the same element with an orientation of angle $\theta$.
+                <br>
+                <br>
+                The following module is used to show such process. Give the stress at 0 degree first, and then give the orientation angle $\theta$, see how the stress of the element change. Also see the stress plot for the whole range of orientation. 
+                </div>
+                <br>
+                <br>
 
                 <p>This module is not available online. However, you may download it!</p>
 
