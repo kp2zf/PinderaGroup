@@ -784,7 +784,7 @@
                 Which is the equation of Mohr's Circle for plane stress problem. Once we set the stress of $\sigma_{x}$, $\sigma_{y}$ and $\tau_{xy}$ at 0 degree, the Mohr's Circle can be drawn in the $\sigma_{x^{'}}$ - $\tau_{x^{'}y^{'}}$ plane, and the point represent 0 degree can be determined. Then, according to the stress transformation equation, we can easily determine the stress for the same element with an orientation of angle $\theta$.
                 <br>
                 <br>
-                The following module is used to show such process. Give the stress at 0 degree first, and then give the orientation angle $\theta$, see how the stress of the element change. Also see the stress plot for the whole range of orientation. 
+                The following module is used to show such process. Give the stress at 0 degree first, and then give the orientation angle $\theta$, see how the stress of the element change. Also see the stress plot for the whole range of orientation.
                 </div>
                 <br>
                 <br>
@@ -820,7 +820,32 @@
                 <h2 class="">Transverse Shear</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="strength_modules/11_description.png" alt="">
+                <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/11_description.png" alt=""> -->
+
+                <div style="text-align: justify" !important>
+                $\textbf{$\tau$}$ - the shear stress in the member at the point located a distance y' from the neutral axis. This stress is assumed to be constant and therefore averaged across the width t of the member
+                <br>
+                $\textbf{V}$ - the internal resultant shear force, determined from the method of sections and the equations of equilibrium
+                <br>
+                $\textbf{I}$ - the moment of inertia of the entire cross-sectional area calculated about the neutral axis
+                <br>
+                $\textbf{t}$ - the width of the member's cross sectional area, measured at the point where $\tau$ is to be determined
+                <br>
+                <br>
+                Q - (A') area of the top ( or bottom ) portion of the plane where t is measured and (y bar) the distance from the neutral axis to the centroid multipled. (y bar) * (A')
+                \begin{equation}
+                \tau = \frac{VQ}{It}
+                \end{equation}
+                Row 1 depicts the overall system. Changing the location and magnitude of the point force will cause a change in the moment and shear graphs. The second column shows the shear force graph.
+                <br>
+                <br>
+                Row 2, column 2 shows the bending moment of the system as a simple supported beam.
+                <br>
+                <br>
+                Row 3 shows how adjusting y1 will affect the overall Q and therefore the transverse stress. Q = $\frac{1}{2}t(y^{2} - y_{1}^{2})$. In the graph, you can see that as you increase $y_{1}$, the Q decreases.
+                </div>
+                <br>
+                <br>
 
                 <p>This module is not available online. However, you may download it!</p>
 
