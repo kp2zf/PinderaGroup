@@ -723,7 +723,13 @@
 
                 <br>
                 <div style="text-align: justify" !important>
-                The following module solves the friction problem 8-88 of the 13th edition of Statics by R.C. Hibbeler. Two blocks, M on the slope and W hanged, are connected by rope crossing through a drum. The slope has an inclination of angle $\theta$, the coefficient of static friction between M and slope is $\mu_1$, and that between rope and drum is $\mu_2$. Try to determine the critical values of W which lead to the break of equilibrium under different conditions, and compare with the given solution. Note that two critical values of W are involved which cause W move up or move down separately.
+                The module below shows how the friction changes on a slope.
+                <br>
+                <br>
+                When a block is statistically placed on a slope with inclined angle $\theta$ and coefficient of friction $\mu$, the friction provided by the slope is a static frictional force; as $\theta$ increases gradually and exceeds the critical value, $\theta_{0}$ = Arctan($\mu$), the statistic balance is broken and the block begins to move, with the static frictional force changed to kinetic frictional force. While in the original balance state, changing the mass of the block, m, cannot break the balance.
+                <br>
+                <br>
+                Module below shows these ideas where $\mu$ and m are variable and $\theta$ can be increased automatically to $\theta_{0}$. Play with these parameters to see how the FBD and balance change.
                 </div>
                 <br>
                 <br>
@@ -1971,12 +1977,21 @@
                 <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/25_description.png" alt=""> -->
 
                 <div style="text-align: justify" !important>
-                A composite area consists of a series of connected "simpler" parts or shapes, such as rectangles, triangles, and circles. Provided the moment of inertia of each of these parts is known or can be determined about a common axis, then the moment of inertia for the composite area about this axis equals the $\textbf{algebraic sum}$ of the moments of inertia of all its parts.
+                The following module expands upon basics in vector representation, position vectors, and vector projection.
                 <br>
                 <br>
-                The property of an area, called the $\textbf{product of inertia}$, is required in order to determine the maximum and minimum moments of inertia for the area. If the x', y' are axes of symmetry to the shape, then $I_{xy}$ bar is 0.
+                As review, projections of a force onto any certain line can be easily found once a force is already represented as a vector. In problem 137, the components of $\textbf{F}$ that act along rod AC and perpendicular to it must be found. The Force vector can be found using the given magnitude and given information that the force acts in the same direction as a vector from B to D. For the projection of the Force vector onto the rod AC, the component can be found using the dot product between the force vector and the unit vector along the desired projection direction. Alternatively, cosine may be used if the angle between BD and AC is known.
+                \begin{equation}
+                F_{\parallel} = F * u_{AC} = |F|cos(\theta)
+                \end{equation}
+                The component of the perpendicular force may be found using the following relation
+                \begin{equation}
+                F = F^{2}_{\bot} = F^{2}_{\parallel}
+                \end{equation}
                 </div>
                 <br>
+
+
                 <p>This module is not available online. However, you may download it!</p>
 
                 <a download href="statics_modules/27.zip">
@@ -2011,10 +2026,13 @@
                 <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/25_description.png" alt=""> -->
 
                 <div style="text-align: justify" !important>
-                A composite area consists of a series of connected "simpler" parts or shapes, such as rectangles, triangles, and circles. Provided the moment of inertia of each of these parts is known or can be determined about a common axis, then the moment of inertia for the composite area about this axis equals the $\textbf{algebraic sum}$ of the moments of inertia of all its parts.
+                The moment of a force $\buildrel{\rightharpoonup}\over{F}$ about point O, or actually about the moment axis passing through O and perpendicular to the plane containing O and $\buildrel{\rightharpoonup}\over{F}$, can be expressed using the vector cross product, namely $\buildrel{\rightharpoonup}\over{M_{O}}$ = $\buildrel{\rightharpoonup}\over{r}$ * $\buildrel{\rightharpoonup}\over{F}$. Here $\buildrel{\rightharpoonup}\over{r}$ represents a position vector directed from O to any point on the line of action of $\buildrel{\rightharpoonup}\over{F}$.
                 <br>
                 <br>
-                The property of an area, called the $\textbf{product of inertia}$, is required in order to determine the maximum and minimum moments of inertia for the area. If the x', y' are axes of symmetry to the shape, then $I_{xy}$ bar is 0.
+                For an object with unbalanced moment $\buildrel{\rightharpoonup}\over{M_{O}}$, the equation of motion is described by $\buildrel{\rightharpoonup}\over{M_{0}}$ = $I_{O}$$\buildrel{\rightharpoonup}\over{\ddot{\theta}}$, where $\buildrel{\rightharpoonup}\over{\ddot{\theta}}$ is the angular acceleration, $I_{O}$ is the moment of inertia of the object with respect to O.
+                <br>
+                <br>
+                For the following problem, we have a lid that is supported by a force. We have a force $\buildrel{\rightharpoonup}\over{F}$, with the magnitude fixed, directions and acting positions at B. The force will produce the moment with respect to point O, and the moment may cause the sphere to rotate with respect to O.
                 </div>
                 <br>
                 <p>This module is not available online. However, you may download it!</p>
@@ -2170,13 +2188,14 @@
 
                 <!-- <img class="img-fluid d-block mx-auto" src="statics_modules/25_description.png" alt=""> -->
 
+
+                <br>
                 <div style="text-align: justify" !important>
-                A composite area consists of a series of connected "simpler" parts or shapes, such as rectangles, triangles, and circles. Provided the moment of inertia of each of these parts is known or can be determined about a common axis, then the moment of inertia for the composite area about this axis equals the $\textbf{algebraic sum}$ of the moments of inertia of all its parts.
-                <br>
-                <br>
-                The property of an area, called the $\textbf{product of inertia}$, is required in order to determine the maximum and minimum moments of inertia for the area. If the x', y' are axes of symmetry to the shape, then $I_{xy}$ bar is 0.
+                The following module solves the friction problem 8-88 of the 13th edition of Statics by R.C. Hibbeler. Two blocks, M on the slope and W hanged, are connected by rope crossing through a drum. The slope has an inclination of angle $\theta$, the coefficient of static friction between M and slope is $\mu_1$, and that between rope and drum is $\mu_2$. Try to determine the critical values of W which lead to the break of equilibrium under different conditions, and compare with the given solution. Note that two critical values of W are involved which cause W move up or move down separately.
                 </div>
                 <br>
+                <br>
+
                 <p>This module is not available online. However, you may download it!</p>
 
                 <a download href="statics_modules/32.zip">
