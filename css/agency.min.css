@@ -733,7 +733,8 @@ section#contact :-ms-input-placeholder {
 
 footer {
   padding: 25px 0;
-  text-align: center
+  text-align: center;
+  background-color: #f2f2f2;
 }
 
 footer span.copyright {
@@ -746,6 +747,7 @@ footer span.copyright {
 footer a {
   color: #000a7a
 }
+
 
 /* footer ul.quicklinks {
   font-size: 90%;
