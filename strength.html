@@ -441,23 +441,25 @@
                 <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/3_description.png" alt=""> -->
 
                 <br>
-                <!-- <div style="text-align: justify" !important>
-                  This module presents the definition of strain.
+                <div style="text-align: justify" !important>
+                  The following module demonstrate the concept of stress at a point. 
                   <br>
                   <br>
-                  Strains are measures of deformation represented by displacements between particles in the body relative
-                  to a reference configuration. They are classified as either normal or shear. Normal strains represent
-                  changes in lengths of line elements oriented along the three axes associated with an infinitesimal cube
-                  and hence are perpendicular to the cube's faces. Therefore they also represent volumetric changes. Shear
-                  strains represent changes in the angles of mutually orthogonal line elements in the three planes x-y,
-                  y-z and x-z of an infinitesimal cube. Therefore they also represent cube's distortion.
+                  Consider a body applied with traction (or displacement) on the boundary. To investigate the stress of a point inside, cut the body with a plane. Without losing generality, choose the plane perpendicular to z-axis. Consider a small area on the plane with size $\Delta$$A_z$, acted with a force $\Delta$$F_z$ which has components of $\Delta$$F_{zx}$, $\Delta$$F_{zy}$, $\Delta$$F_{zz}$. Then the stresses can be defined as 
                   <br>
+                  \begin{equation}
+                  \tau_{zx} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zx}}{\Delta A_{z}}
+                  \end{equation}
+                  \begin{equation}
+                  \tau_{zy} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zy}}{\Delta A_{z}}
+                  \end{equation}
+                  \begin{equation}
+                  \tau_{zz} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zz}}{\Delta A_{z}}
+                  \end{equation}
                   <br>
-                  There are three normal strains and six shear strains, but only three of the six shear strains are
-                  independent because shear strains are symmetric. These strains comprise the three-dimensional strain
-                  tensor in analogy with the stress tensor and may be represented using the same matrix notation.
+                  The general state of stress at this point can be obtained if we take a stress cube out and look at the stress at the remaining surfaces. 
                   <br>
-                </div> -->
+                </div>
                 <br>
                 <br>
 
@@ -1138,8 +1140,6 @@
                 <h2 class="">Combined Loadings</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <img class="img-fluid d-block mx-auto" src="strength_modules/9_description.png" alt="">
-
                 <div style="text-align: justify" !important>
                   The solid rod shown below is fixed on the wall at one end and applied with a force at the other end.
                   The module is designed to show how to determine the internal loading and stress on a chosen section A.
@@ -1246,8 +1246,6 @@
                 <!-- Project Details Go Here -->
                 <h2 class="">Beam Deflection</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
-
-                <img class="img-fluid d-block mx-auto" src="strength_modules/12_description.png" alt="">
 
                 <div style="text-align: justify" !important>
                   The module below shows how to determine the deflection of a beam. Two types of beam with two types of
