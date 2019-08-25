@@ -448,13 +448,13 @@
                   Consider a body applied with traction (or displacement) on the boundary. To investigate the stress of a point inside, cut the body with a plane. Without losing generality, choose the plane perpendicular to z-axis. Consider a small area on the plane with size $\Delta$$A_z$, acted with a force $\Delta$$F_z$ which has components of $\Delta$$F_{zx}$, $\Delta$$F_{zy}$, $\Delta$$F_{zz}$. Then the stresses can be defined as 
                   <br>
                   \begin{equation}
-                  \tau_{zx} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zx}}{\Delta A_{z}}
+                  \tau_{zx} = lim_{\Delta A_{z} \rightarrow 0} \:\: \frac{\Delta F_{zx}}{\Delta A_{z}}
                   \end{equation}
                   \begin{equation}
-                  \tau_{zy} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zy}}{\Delta A_{z}}
+                  \tau_{zy} = lim_{\Delta A_{z} \rightarrow 0} \:\: \frac{\Delta F_{zy}}{\Delta A_{z}}
                   \end{equation}
                   \begin{equation}
-                  \tau_{zz} = lim_{\Delta A_{z}->0} \:\: \frac{\Delta F_{zz}}{\Delta A_{z}}
+                  \sigma_{zz} = lim_{\Delta A_{z} \rightarrow 0} \:\: \frac{\Delta F_{zz}}{\Delta A_{z}}
                   \end{equation}
                   <br>
                   The general state of stress at this point can be obtained if we take a stress cube out and look at the stress at the remaining surfaces. 
@@ -618,23 +618,20 @@
                 <h2 class="">Internal Shear and Moment Diagram</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/3_description.png" alt=""> -->
-
-                <br>
-                <!-- <div style="text-align: justify" !important>
-                  Mechanical Properties of Materials - Chapter 3.1 to 3.4
-                  <br>
-                  The first diagram depicts the control force bar. The second second depicts how length affects the total
-                  change in length when a force is applied. The third diagram depicts how a change in area affects the
-                  total change in length when a force is applied.
+                <img class="img-fluid d-block mx-auto" src="strength_modules/3_desc.png" alt="">
+                <div style="text-align: justify" !important>
+                  The following module expands on the topic of two-dimensional FBD diagrams, the method of sections, and internal forces and moments covered previously in Statics. The module illustrates homework problem 16 in chapter 1 of the 10th edition of Hibbeler's Mechanics of Materials.
                   <br>
                   <br>
-                  The first graph shows the three diagrams of when a force is applied. The equation is $\delta$l =
-                  $\frac{Fl}{AE}$
+                  As illustrated above, a supported beam has two pin supports: one at point A and one at point B. Although different from the typical beam setup of one roller and one pin, the internal normal force is not affected. Solving for the support reactions at A and B, it is found that the two exert a horizontal reaction force. Since there is not horizontal external force or loading, the internal forces in the horizontal direction is neglected. Additionally the textbook problem assumes the reaction supports are vertical. 
                   <br>
-                  The second graph depicts $\sigma$ = Ee.
                   <br>
-                </div> -->
+                  The problem itself asks for internal forces and moments at D and E; however, the module shows forces and moments at all points of the beam. Using method of sections, shear and moment equations can be found for a particular section varying with the chosen position along the beam (where x = 0 is at point A). The shape of the distributed loading must be noted. A common rectangular distributed loading would produce a shear diagram of the first order (linear) and thus a moment diagram of the second order (quadratic). Since this shape is that of a triangle, the shear now becomes a second order function. 
+                  <br>
+                  <br>
+                  The following module calculates and graphs shear and moment, and allows for the magnitude of the distributed loading peak, location of the peak and the location of support reaction B to be changed.    
+                  <br>
+                </div>
                 <br>
                 <br>
 
