@@ -976,12 +976,30 @@
                 <h2 class="">Shear Stress from Torque</h2>
                 <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
 
-                <!-- <img class="img-fluid d-block mx-auto" src="strength_modules/12_description.png" alt="">
+                <img class="img-fluid d-block mx-auto" src="strength_modules/12_desc.png" alt="">
   
                 <div style="text-align: justify" !important>
-                  The module below shows how to determine the deflection of a beam. Two types of beam with two types of
-                  cross sections are available. As an intermediate step, the internal force diagram is also provided for
-                  the final determination of the deflection. </div> -->
+                  The following module discusses the topics of shear stress from applied torques and the angle of twist. The module illustrates homework problem 9 in chapter 5 of the 10th edition of Hibbeler's Mechanics of Materials.
+                  <br>
+                  <br>
+                  As illustrated above, a cylindrical rod is subjected to two torques of varying direction and torque. The problem specifically asks for the shear stresses at points A and B. Please note that while point A lies on the outside surface of the rod, point B lies 20 mm from the center of the shaft. Similar to normal stresses and beams under transverse loads, torque problems require the computation of the internal torque to find the stresses at the desired area. The module follows the sign convention outlined in Hibbeler (pg. 209 of the 10th edition). 
+                  <br>
+                  \begin{equation}
+                  \tau = \frac{T \rho}{J}
+                  \end{equation}
+                  \begin{equation}
+                  \tau_{max} = \frac{T r}{J}
+                  \end{equation}
+
+                  In addition to shear stress, the angle of twist has been included as a feature. To calculate the angle of twist at an end of a rod that is subject to multiple torques, the angle of twist formula will be applied to each section of uniform torque and then added up to get the total angle of twist. Again, this runs analogous to the calculations of deformations in beams. While the length of the beam was not given in the problem, an arbitrary range of 0 to 1 m has been given. 
+                  <br>
+                  \begin{equation}
+                  \phi = \frac{TL}{JG}
+                  \end{equation}
+
+                  The following module allows for the magnitude and position of the two applied torques to be changed along with the radius, length, and shear modulus (G).  It calculates the shear stress at a certain position that can be changed longitudinally (x-axis) and radially as well as the angle of twist. The mesh and volume element may be viewed. Note that although the red section point may be rotated about the x-axis, this does not change the value of the internal shear stress value. Only translating the point radially on the yz plane will affect the shear stress. 
+                  <br>
+                </div>
                 <br>
                 <br>
 
